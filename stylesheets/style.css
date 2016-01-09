@@ -1,0 +1,382 @@
+html {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #555;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+body {
+    height: 900px;
+    margin: 0px;
+}
+
+#inner-body {
+  height: 900px;
+  background: url('../images/home-bg.jpg');
+  background-repeat: no-repeat;
+  margin: 0px;
+  position: relative;
+}
+
+iframe {
+  margin-top: 20px;
+}
+
+a {
+  color: #F45D47;
+  text-decoration: none;
+  border-bottom: 1px dashed #bbb;
+}
+
+a:hover {
+  color: #F6932B;
+}
+
+h1 {
+  margin: 10px 0px 30px;
+  color: #27ACF1;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.img {
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+  height: 300px;
+  margin: 10px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+
+.img#baby {
+  background: url('../images/baby.jpg');
+  width: 225px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 20px 0px 10px;
+  letter-spacing: 2px;
+  color: #F45D47;
+}
+
+h3 {
+  display: inline;
+  font-size: 12px;
+  font-weight: normal;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.h-about {
+  //color: #FA6BBC;
+}
+
+.h-projects {
+  //color: #F6932B;
+}
+
+.h-portfolio {
+  //color: #7CC901;
+}
+
+.h-resume {
+  //color: #F45D47;
+}
+
+#signature {
+  background: url('../images/jessica.png');
+  width: 313px;
+  height: 120px;
+  position: absolute;
+  top: 340px;
+  left: 580px;
+}
+
+#contact-me {
+  display: none;
+  background: #fff;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 20px;
+  color: #27ACF1;
+}
+
+#content-background, #wrapper {
+  width: 700px;
+  position: absolute;
+  left: 450px;
+  top: 130px;
+}
+
+#content-background {
+  display: none;
+  height: 0px;
+  background: #fff;
+  //border: 2px solid #27ACF1;
+  padding: 20px;
+  opacity: .6;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+#wrapper {
+  background: none;
+  padding: 20px;
+}
+
+.content {
+  display: none;
+  opacity: 0;
+  margin-bottom: 100px;
+}
+
+.balloon {
+  width: 100px;
+  height: 130px;
+  position: absolute;
+}
+
+#balloon-about {
+  top: 100px;
+  left: 150px;
+}
+
+#balloon-projects {
+  top: 60px;
+  left: 250px;
+}
+
+#balloon-portfolio {
+  top: 76px;
+  left: 350px;
+}
+
+#balloon-resume {
+  top: 130px;
+  left: 430px;
+}
+
+.bloop {
+  position: absolute;
+  opacity: 0;
+}
+
+#bloop-about {
+  background: url('../images/bloop-about.png');
+  width: 111px;
+  height: 96px;
+  top: 210px;
+  left: 140px;
+}
+
+#bloop-projects {
+  background: url('../images/bloop-projects.png');
+  width: 144px;
+  height: 80px;
+  top: 8px;
+  left: 180px;
+} 
+
+#bloop-portfolio {
+  background: url('../images/bloop-portfolio.png');
+  width: 87px;
+  height: 61px;
+  top: 15px;
+  left: 400px;
+}
+
+#bloop-resume {
+  background: url('../images/bloop-resume.png');
+  width: 133px;
+  height: 92px;
+  top: 250px;
+  left: 430px;
+}
+
+
+/*ABOUT*/
+#jessica {
+  background: url('../images/jessica-profile.png');
+  width: 200px;
+  height: 267px;
+  margin: 0px auto 5px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+
+/*PROJECTS*/
+.project {
+  width: inherit;
+  min-height: 240px;
+  margin-top: 50px;
+}
+
+.project-info {
+  display: inline-block;
+  width: 440px;
+  float: right;
+}
+
+.project-info h2 {
+  margin-top: 0px;
+}
+.screenshot-big {
+  background: url('../images/coming-soon.jpg');
+  width: 230px;
+  height: 230px;
+  float: left;
+  vertical-align: top;
+  margin-right: 20px;
+  border: 1px solid #dadada;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+
+.screenshot-big#clouds {
+  background: url('../images/clouds-thumb.jpg');
+}
+
+.screenshot-big#raytracer {
+  background: url('../images/raytracer-thumb.jpg');
+}
+
+.screenshot-big#wikiracers {
+  background: url('../images/wikiracers-thumb.png');
+}
+
+.screenshot-big#sparketplace {
+  background: url('../images/sparketplace-thumb.jpg');
+
+}
+
+.screenshot-big#ballsy {
+  background: url('../images/ballsy-thumb.jpg');
+}
+
+.screenshot-big#soundbrush {
+  background: url('../images/soundbrush-thumb.jpg');
+}
+
+/*PORTFOLIO*/
+.gallery-thumb {
+  display: inline-block;
+  background-position: -200px -300px;
+  width: 50px;
+  height: 50px;
+  margin: 6px;
+  opacity: .7;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.gallery-thumb:hover {
+  opacity: 1;
+}
+
+#theater-backdrop {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+}
+
+#theater {
+  width: 100%;
+  height: 570px;
+  margin: 50px 0px 0px;
+  position: absolute;
+  top: 0px;
+}
+
+#theater-wrapper {
+  background: #fff;
+  width: 902px;
+  height: inherit;
+  margin: auto;
+  //border: 1px solid #ddd;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  -moz-box-shadow:    2px 2px 6px 1px #ccc;
+  -webkit-box-shadow: 2px 2px 6px 1px #ccc;
+  box-shadow:         2px 2px 6px 1px #ccc;
+}
+
+#theater-canvas-wrapper {
+  display: inline-block;
+  background: white;
+  width: 780px;
+  height: inherit;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+}
+
+#theater-canvas {
+  background-position: center 10px;
+  background-repeat: no-repeat;
+  width: 780px;
+  height: inherit;
+  margin: auto;
+}
+
+#theater-caption {
+  margin: -30px;
+  text-align: center;
+}
+
+#theater-prev {
+  display: inline-block;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  width: 60px;
+  height: inherit;
+  -webkit-border-top-left-radius: 14px;
+  -webkit-border-bottom-left-radius: 14px;
+  -moz-border-radius-topleft: 14px;
+  -moz-border-radius-bottomleft: 14px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+#theater-prev:hover {
+  background: #eee;
+}
+
+#theater-next {
+  display: inline-block;
+  background: #fff;
+  border-left: 1px solid #ddd;
+  float: right;
+  width: 60px;
+  height: inherit;
+  -webkit-border-top-right-radius: 14px;
+  -webkit-border-bottom-right-radius: 14px;
+  -moz-border-radius-topright: 14px;
+  -moz-border-radius-bottomright: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+#theater-next:hover {
+  background: #eee;
+}
+
+/*RESUME*/
+#cat {
+  background: url('../images/cat.gif');
+  width: 331px;
+  height: 229px;
+  margin: 20px auto 0px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
